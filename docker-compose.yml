@@ -1,0 +1,13 @@
+version: "3"
+
+services: 
+  python:
+    build: .
+    container_name: "nlp100-python"
+    ports:
+      - "8900:8900"
+    tty: true
+    working_dir: "/workspace"
+    volumes: 
+      - ./workspace:/workspace
+    command: jupyter lab --port 8900 --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=""
