@@ -21,7 +21,7 @@ RUN wget -O /tmp/CRF++-0.58.tar.gz "https://drive.google.com/uc?export=download&
   && rm -rf /tmp/CRF++-0.58 \
   && ldconfig
 
-# Install CaboCha
+# cabochaのインストール
 RUN cd /tmp \
   && curl -c cabocha-0.69.tar.bz2 -s -L "https://drive.google.com/uc?export=download&id=0B4y35FiV1wh7SDd1Q1dUQkZQaUU" \
     | grep confirm | sed -e "s/^.*confirm=\(.*\)&amp;id=.*$/\1/" \
@@ -51,6 +51,6 @@ RUN mkdir $workspace_dir
 ADD workspace/requirements.txt $workspace_dir
 WORKDIR $workspace_dir
 
-# ライブラリのインストール
+# Pythonライブラリのインストール
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
