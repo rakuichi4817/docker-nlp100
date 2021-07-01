@@ -4,12 +4,14 @@ async-generator==1.10
 attrs==21.2.0
 Babel==2.9.1
 backcall==0.2.0
+bhtsne==0.1.9
 bleach==3.3.0
 cabocha-python==0.69
 certifi==2021.5.30
 cffi==1.14.5
 chardet==4.0.0
 cycler==0.10.0
+Cython==0.29.23
 decorator==5.0.9
 defusedxml==0.7.1
 entrypoints==0.3
@@ -37,6 +39,7 @@ kiwisolver==1.3.1
 MarkupSafe==2.0.1
 matplotlib==3.4.2
 matplotlib-inline==0.1.2
+mecab==0.996.3
 mistune==0.8.4
 nbclassic==0.3.1
 nbclient==0.5.3
