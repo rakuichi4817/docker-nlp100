@@ -54,3 +54,5 @@ WORKDIR $workspace_dir
 # Pythonライブラリのインストール
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
+RUN pip install bhtsne==0.1.9
+RUN pip install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html

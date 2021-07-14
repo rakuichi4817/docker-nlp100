@@ -7,7 +7,7 @@ services:
     ports:
       - "8900:8900"
     tty: true
-    working_dir: "/workspace"
+    working_dir: "/workspace/notebook"
     volumes: 
       - ./workspace:/workspace
     command: jupyter lab --port 8900 --ip=0.0.0.0 --no-browser --allow-root --NotebookApp.token=""

@@ -4,7 +4,6 @@ async-generator==1.10
 attrs==21.2.0
 Babel==2.9.1
 backcall==0.2.0
-bhtsne==0.1.9
 bleach==3.3.0
 cabocha-python==0.69
 certifi==2021.5.30
