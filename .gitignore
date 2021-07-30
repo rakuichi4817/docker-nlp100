@@ -1,5 +1,3 @@
 *.ipynb_checkpoints
 .virtual_documents
-workspace/notebook/
-
-.
+workspace/notebook/data
