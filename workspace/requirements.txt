@@ -4,7 +4,6 @@ async-generator==1.10
 attrs==21.2.0
 Babel==2.9.1
 backcall==0.2.0
-bhtsne==0.1.9
 bleach==3.3.0
 cabocha-python==0.69
 certifi==2021.5.30
@@ -16,7 +15,6 @@ decorator==5.0.9
 defusedxml==0.7.1
 entrypoints==0.3
 gensim==4.0.1
-graphviz==0.17
 idna==2.10
 ipykernel==5.5.5
 ipython==7.24.1
@@ -63,7 +61,6 @@ prometheus-client==0.11.0
 prompt-toolkit==3.0.18
 ptyprocess==0.7.0
 pycparser==2.20
-pydot==1.4.2
 Pygments==2.9.0
 pyparsing==2.4.7
 pyrsistent==0.17.3
@@ -84,13 +81,9 @@ sniffio==1.2.0
 terminado==0.10.1
 testpath==0.5.0
 threadpoolctl==2.1.0
-torch==1.9.0+cpu
-torchaudio==0.9.0
-torchvision==0.10.0+cpu
 tornado==6.1
 tqdm==4.61.1
 traitlets==5.0.5
-typing-extensions==3.10.0.0
 urllib3==1.26.5
 wcwidth==0.2.5
 webencodings==0.5.1

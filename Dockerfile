@@ -58,4 +58,4 @@ RUN pip install bhtsne==0.1.9
 RUN pip install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
 
 # Pythonで利用するツールのインストール
-RUN apt install graphviz
+RUN apt install graphviz -y
